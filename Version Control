@@ -1,0 +1,20 @@
+# Create a new public GitHub repository named "MyApp"
+# Initialize each component's repository
+
+mkdir MyApp
+cd MyApp
+
+mkdir Go Next.js WordPress
+
+# Initialize each component's repository
+cd Go
+git init
+cd ..
+
+cd "Next.js"
+git init
+cd ..
+
+cd WordPress
+git init
+cd ..
