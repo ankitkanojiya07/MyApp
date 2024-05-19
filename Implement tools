@@ -1,0 +1,8 @@
+# For WordPress Component (inside WordPress directory)
+composer require squizlabs/php_codesniffer
+
+# For Go Component (install golangci-lint)
+GO111MODULE=on go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+
+# For Next.js Component (install ESLint and Prettier)
+npm install eslint prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
